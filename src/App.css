@@ -22,6 +22,11 @@
   font-size: large;
 }
 
+.input {
+  composes: input from "bulma/css/bulma.css";
+  composes: is-primary from "bulma/css/bulma.css"
+}
+
 @keyframes logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
